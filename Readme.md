@@ -18,6 +18,19 @@ lo largo del tiempo para que se puedan recuperar versiones especificas mas adela
 1. `git config --global user.email "email@com"`
 2. `git config --global user.name "name"`
 
+# git branching 
+MB = Mastes Branch
+FB = Feature Branch
+HFB  = Hot Fix Branch
+
+                        HFB
+MB => c#1 => MB => c#2 MB c#3 MB c#4             Merge
+                    FB c#1 FB c#2 
+
+- git branch
+- git checkout
+- git checkout brand.name
+- git checkout -b new-branch
 
 ## Github Workflow
 
@@ -35,3 +48,5 @@ git commit
 push changes
 git push
 make a pull request
+
+
