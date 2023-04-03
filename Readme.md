@@ -27,6 +27,7 @@ HFB  = Hot Fix Branch
 MB => c#1 => MB => c#2 MB c#3 MB c#4             Merge
                     FB c#1 FB c#2 
 
+<<<<<<< HEAD
 - `git branch`
 - `git checkout`
 - `git checkout brand.name`
@@ -38,6 +39,12 @@ MB => c#1 => MB => c#2 MB c#3 MB c#4             Merge
 
 
 
+=======
+- git branch
+- git checkout
+- git checkout brand.name
+- git checkout -b new-branch
+>>>>>>> refs/remotes/origin/main
 
 ## Github Workflow
 
