@@ -64,3 +64,14 @@ git push
 make a pull request
 
 
+# Undoing 
+
+- new comment
+
+1. `git reset`
+2. `git reset HEAD~1`
+3. `git log`
+4. `git reset "commit"`
+
+# Forking
+
